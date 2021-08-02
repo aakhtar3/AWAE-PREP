@@ -1,5 +1,3 @@
-<script>
-
 function firstLast(arr) {
   let l = (arr.length-1);
   let array = [];
@@ -8,4 +6,3 @@ function firstLast(arr) {
   return array;
 }
 
-</script>

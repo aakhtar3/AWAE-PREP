@@ -1,11 +1,6 @@
 function reverse(bool) {
-  if (typeof bool != 'boolean') {
-    return "boolean expected";
+  if (typeof bool !== 'boolean') {
+    throw new Error("boolean expected")
   }
-  else {
-    if (bool == true)
-      return false;
-    else
-      return true;
-  }
+  return !bool
 }

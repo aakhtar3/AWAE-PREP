@@ -1,5 +1,3 @@
-<script>
-
 function getStudentNames(students) {
   list = [];
   for (let i = 0; i < students.length; i++)
@@ -7,4 +5,3 @@ function getStudentNames(students) {
   return list;
 }
 
-</script>
